@@ -1,0 +1,13 @@
+{
+  "gmail": {
+    "username": "foo",
+    "password": "bar"
+  },
+  "recipients": ["foo@gmail.com", "bar@gmail.com"],
+  "port": 587,
+  "address": "0.0.0.0",
+  "ssl": {
+    "chain": "path/to/chain.pem",
+    "key": "path/to/key.pem"
+  }
+}

@@ -1,0 +1,5 @@
+.packages
+pubspec.lock
+*.swp
+.dart_tool
+config.json
