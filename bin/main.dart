@@ -91,6 +91,8 @@ main(List<String> args) async {
       }
     }
 
+    logger.fine(
+        'Rejecting non-whitelisted email from ${mailObject.envelope.originatorAddress}');
     mailObject.close();
   });
 }
