@@ -4,7 +4,6 @@ dependencies:
   http_parser: ^3.0.0
   logging: ^0.11.0
   mailer: ^2.0.0
-  smtp:
-    git: https://github.com/thosakwe/smtp.git
+  smtp: ^1.0.0
 dev_dependencies:
   args: ^1.0.0
